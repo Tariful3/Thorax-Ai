@@ -46,7 +46,7 @@ for file in list_of_files:
 
         with open(file, "w") as f:
             pass
-
+ 
         logging.info(f"Creating empty file: {file}")
 
     else:
